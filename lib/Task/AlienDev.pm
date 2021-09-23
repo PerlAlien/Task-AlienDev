@@ -51,6 +51,11 @@ This module does require Perl 5.22 or better currently because at least some of 
 require that version.  Note that L<Alien>s authored with these tools should work on Perls
 of at least 5.8.4 or better, so this is just a I<development> requirement.
 
+This L<Task> indirectly requires both L<Alien::FFI> and L<Alien::Libarchive3>.  If you do
+not want to build them from source or do not have internet access where the build is
+happening you will want to pre-install C<libffi> and C<libarchive>.  On Debian based systems
+you can do that with C<sudo apt-get update && sudo apt-get install libffi-dev libarchive-dev>.
+
 =cut
 
 1;

@@ -44,6 +44,11 @@ This module does require Perl 5.22 or better currently because at least some of 
 require that version.  Note that [Alien](https://metacpan.org/pod/Alien)s authored with these tools should work on Perls
 of at least 5.8.4 or better, so this is just a _development_ requirement.
 
+This [Task](https://metacpan.org/pod/Task) indirectly requires both [Alien::FFI](https://metacpan.org/pod/Alien::FFI) and [Alien::Libarchive3](https://metacpan.org/pod/Alien::Libarchive3).  If you do
+not want to build them from source or do not have internet access where the build is
+happening you will want to pre-install `libffi` and `libarchive`.  On Debian based systems
+you can do that with `sudo apt-get update && sudo apt-get install libffi-dev libarchive-dev`.
+
 # AUTHOR
 
 Graham Ollis <plicease@cpan.org>
