@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}},
 
 {{$NEXT}}
+
+0.02      2021-09-27 17:24:05 -0600
   - Add several common dynamic deps when doing Alien development:
     Env::ShellWords, File::Listing, HTTP::Tiny, Mojo::DOM58,
     Sort::Versions and URI (gh#2, gh#3)
