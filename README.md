@@ -36,6 +36,18 @@ you these modules:
 The latest versions as of when this [Task](https://metacpan.org/pod/Task) was released should be installed at minimum if
 they are not already installed.
 
+In addition these modules, which are dynamic dependencies on some platforms, are installed:
+
+- [Env::ShellWords](https://metacpan.org/pod/Env::ShellWords)
+- [File::Listing](https://metacpan.org/pod/File::Listing)
+- [HTTP::Tiny](https://metacpan.org/pod/HTTP::Tiny)
+- [Mojo::DOM58](https://metacpan.org/pod/Mojo::DOM58)
+- [Sort::Versions](https://metacpan.org/pod/Sort::Versions)
+- [URI](https://metacpan.org/pod/URI)
+
+Having these dynamic dependencies pre-installed makes it easier to test [Alien](https://metacpan.org/pod/Alien)s in both
+`share` and `system` modes.
+
 Other prereqs may be added in the future if they are deemed useful for [Alien](https://metacpan.org/pod/Alien) development.
 
 # CAVEATS
