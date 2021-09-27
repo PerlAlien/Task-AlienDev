@@ -43,6 +43,27 @@ Some useful L<Dist::Zilla> plugins useful for developing L<Alien::Build> based L
 The latest versions as of when this L<Task> was released should be installed at minimum if
 they are not already installed.
 
+In addition these modules, which are dynamic dependencies on some platforms, are installed:
+
+=over 4
+
+=item L<Env::ShellWords>
+
+=item L<File::Listing>
+
+=item L<HTTP::Tiny>
+
+=item L<Mojo::DOM58>
+
+=item L<Sort::Versions>
+
+=item L<URI>
+
+=back
+
+Having these dynamic dependencies pre-installed makes it easier to test L<Alien>s in both
+C<share> and C<system> modes.
+
 Other prereqs may be added in the future if they are deemed useful for L<Alien> development.
 
 =head1 CAVEATS
