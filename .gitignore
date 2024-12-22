@@ -2,4 +2,7 @@ Task-AlienDev-*
 /.build/
 *.swp
 
-
+/Task-AlienDev-*
+/.build
+*.old
+*.orig
